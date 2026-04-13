@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transyes | Versión ligera para consultas rápidas</title>
+  <meta name="description" content="El mini sitio en español conduce rápidamente a servicios clave, localización y cotización.">
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="es">
+  <div id="site-header"></div>
+  <section class="hero page"><div class="container intro"><div><div class="k">Español</div><h1>Servicios lingüísticos para consultas rápidas</h1><p class="note">Accede rápidamente a traducción, interpretación, localización y solicitud de cotización.</p></div><div class="panel media media-light-es-main"><div class="media-label"><strong>Visual ES</strong></div></div></div></section>
+  <div class="sp"></div>
+  <section class="shell"><div class="g3"><a class="card" href="./services/index.html"><h3>Traducción</h3><p>Contratos, informes anuales, contenidos médicos y documentos técnicos.</p></a><a class="card" href="./services/index.html"><h3>Interpretación</h3><p>Conferencias, reuniones ejecutivas, acompañamiento y remoto.</p></a><a class="card" href="./localization/index.html"><h3>Localización</h3><p>Sitios web, apps, SaaS y campañas internacionales.</p></a></div></section>
+  <div class="sp"></div>
+  <template id="site-header-fallback">
+    <header class="header"><div class="headin"><a class="brand" href="./index.html"><span class="mark">TY</span><span>Transyes<small>Versión en español</small></span></a><div class="navw open"><nav class="nav"><a href="./index.html">Inicio</a><a href="./services/index.html">Servicios</a><a href="./localization/index.html">Localización</a><a href="./about/index.html">Nosotros</a></nav><a class="ctaBtn" href="./quote/index.html">Solicitar cotización</a></div></div></header>
+  </template>
+  <template id="site-footer-fallback">
+    <section class="cta"><h2 style="color:#fff">Cuéntanos sobre tu proyecto multilingüe.</h2><div class="actions"><a class="btn" href="./quote/index.html">Solicitar cotización</a></div></section>
+    <footer class="footer"><div class="footend"><div>Transyes ES</div><div class="langs"><a href="../index.html">中文</a><a href="../en/index.html">EN</a><a href="../fr/index.html">FR</a><a href="../es/index.html">ES</a><a href="../de/index.html">DE</a><a href="../ar/index.html">العربية</a></div></div></footer>
+  </template>
+  <div id="site-footer"></div>
+  <script src="../assets/js/site.js"></script>
+  <script>
+    window.loadTransyesComponents({
+      header: "../components/header-es.html",
+      siteRoot: "/transyes",
+      footer: "../components/footer-es.html",
+      fallbackHeaderId: "site-header-fallback",
+      fallbackFooterId: "site-footer-fallback"
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+

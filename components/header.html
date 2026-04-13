@@ -1,0 +1,193 @@
+﻿<style>
+.site-topbar {
+  background: #0c1030;
+  padding: 7px 0;
+  font-size: 13px;
+  color: rgba(255,255,255,0.4);
+}
+.site-topbar-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-topbar a {
+  color: rgba(255,255,255,0.4);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.site-topbar a:hover {
+  color: #FBE108;
+}
+.topbar-contact {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.topbar-dot {
+  opacity: 0.25;
+}
+.lang-switch {
+  display: flex;
+  gap: 3px;
+}
+.lang-switch a {
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+.lang-switch a.active {
+  color: #FBE108;
+  background: rgba(251,225,8,0.08);
+}
+.lang-divider {
+  color: rgba(255,255,255,0.12);
+}
+.site-header {
+  background: rgba(20,25,72,0.97);
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.site-header-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  color: #FBE108;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.header-logo .cn {
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(255,255,255,0.35);
+  margin-left: 6px;
+}
+.site-nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.site-nav a {
+  color: rgba(255,255,255,0.85);
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.15s;
+  position: relative;
+}
+.site-nav a:hover {
+  color: #FBE108;
+}
+.site-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #FBE108;
+  transition: width 0.2s;
+}
+.site-nav a:hover::after {
+  width: 100%;
+}
+.site-nav .has-sub::after {
+  display: none;
+}
+.site-nav .has-sub .arrow-down {
+  font-size: 10px;
+  margin-left: 3px;
+  opacity: 0.5;
+}
+.nav-cta {
+  background: #E7CC4A;
+  color: #141948;
+  padding: 9px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.nav-cta:hover {
+  background: #FBE108;
+  box-shadow: 0 4px 16px rgba(251,225,8,0.3);
+}
+.nav-cta::after {
+  display: none !important;
+}
+@media (max-width: 768px) {
+  .site-topbar-inner {
+    padding: 0 20px;
+    font-size: 12px;
+  }
+  .site-header-inner {
+    padding: 0 20px;
+  }
+  .site-nav {
+    gap: 16px;
+  }
+  .site-nav a {
+    font-size: 14px;
+  }
+  .nav-cta {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+</style>
+
+<div class="site-topbar">
+  <div class="site-topbar-inner">
+    <div class="topbar-contact">
+      <a href="tel:+8615608217316">+86 15608217316</a>
+      <span class="topbar-dot">|</span>
+      <a href="mailto:project@transyes.cn">project@transyes.cn</a>
+    </div>
+    <div class="lang-switch">
+      <a href="/index.html" class="active">涓枃</a>
+      <span class="lang-divider">|</span>
+      <a href="/en/index.html">EN</a>
+      <span class="lang-divider">|</span>
+      <a href="/fr/index.html">FR</a>
+      <span class="lang-divider">|</span>
+      <a href="/es/index.html">ES</a>
+      <span class="lang-divider">|</span>
+      <a href="/de/index.html">DE</a>
+      <span class="lang-divider">|</span>
+      <a href="/ar/index.html">丕賱毓乇亘賷丞</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/index.html" class="header-logo">TRANSYES<span class="cn">鏈夎瘧鎬?/span></a>
+    <nav class="site-nav">
+      <a href="/index.html">棣栭〉</a>
+      <a href="/zh/services/translation/index.html" class="has-sub">鏈嶅姟<span class="arrow-down">鈻?/span></a>
+      <a href="/zh/industries/index.html">琛屼笟瑙ｅ喅鏂规</a>
+      <a href="/zh/cases/index.html">妗堜緥涓庤祫婧?/a>
+      <a href="/zh/about/index.html">鍏充簬鎴戜滑</a>
+      <a href="/zh/quote/index.html" class="nav-cta">鑾峰彇鎶ヤ环</a>
+    </nav>
+  </div>
+</header>
+
+

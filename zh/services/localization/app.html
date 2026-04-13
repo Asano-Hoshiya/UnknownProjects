@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>App / SaaS 本地化 | Transyes</title><meta name="description" content="App / SaaS 本地化页面。"><link rel="stylesheet" href="../../../assets/css/site.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet"></head>
+<body>
+  <div id="site-header"></div>
+<section class="hero page"><div class="container intro"><div><div class="k">App / SaaS</div><h1>App / SaaS 本地化</h1><p class="note">覆盖 UI 字符串、系统消息、引导流程、应用商店文案、更新说明和帮助文档，适合产品持续迭代场景。</p></div><div class="panel media media-zh-service-localization-app"><div class="media-label"><strong>App / SaaS 界面占位</strong></div></div></div></section><div class="sp"></div><section class="shell"><div class="g2"><div class="card"><h3>适用内容</h3><p>界面文案、功能说明、提示信息、通知、邮件、应用商店页面。</p></div><div class="card"><h3>项目重点</h3><p>字符长度控制、术语一致性、版本同步和跨端体验统一。</p></div></div></section><div class="sp"></div>
+  <template id="site-header-fallback">
+    <div class="topbar">
+      <div class="topin">
+        <div class="row"><a href="tel:+8615608217316">📞 +86 15608217316</a><span>·</span><a href="mailto:project@transyes.cn">project@transyes.cn</a></div>
+        <div class="langs"><a class="active" href="../../../zh/index.html">中文</a><span>|</span><a href="../../../en/index.html">EN</a><span>|</span><a href="../../../fr/index.html">FR</a><span>|</span><a href="../../../es/index.html">ES</a><span>|</span><a href="../../../de/index.html">DE</a><span>|</span><a href="../../../ar/index.html">العربية</a></div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="headin">
+        <a class="brand" href="../../../zh/index.html"><span class="mark">TY</span><span>Transyes 有译思<small>Language for research and global business</small></span></a>
+        <button class="toggle" type="button" data-nav="#main-nav">菜单</button>
+        <div class="navw" id="main-nav">
+          <nav class="nav">
+            <a href="../../../zh/index.html">首页</a>
+            <a href="../../../zh/services/translation/index.html">服务</a>
+            <a href="../../../zh/industries/index.html">行业解决方案</a>
+            <a href="../../../zh/cases/index.html">案例与资源</a>
+            <a href="../../../zh/about/index.html">关于我们</a>
+          </nav>
+          <a class="ctaBtn" href="../../../zh/quote/index.html">获取报价</a>
+        </div>
+      </div>
+    </header>
+  </template>
+  <template id="site-footer-fallback">
+    <section class="cta">
+      <h2 style="color:#fff">准备开始您的项目？</h2>
+      <p>无论是商务合同、国际会议，还是 SCI 论文润色，我们都可以从需求梳理开始，快速进入报价与执行。</p>
+      <div class="actions"><a class="btn" href="../../../zh/quote/index.html">获取报价</a><a class="btn2" href="../../../zh/quote/index.html">上传文件</a></div>
+    </section>
+    <footer class="footer">
+      <div class="foot">
+        <div><h3>服务</h3><div class="links"><a href="../../../zh/services/translation/index.html">笔译服务</a><a href="../../../zh/services/interpreting/index.html">口译服务</a><a href="../../../zh/services/academic/index.html">学术翻译</a><a href="../../../zh/services/localization/index.html">本地化与内容出海</a><a href="../../../zh/services/multimedia/index.html">多媒体与排版</a></div></div>
+        <div><h3>行业</h3><div class="links"><a href="../../../zh/industries/education.html">高校与科研</a><a href="../../../zh/industries/government.html">政府与公共机构</a><a href="../../../zh/industries/pharma.html">生物医药</a><a href="../../../zh/industries/finance.html">金融与经贸</a></div></div>
+        <div><h3>关于</h3><div class="links"><a href="../../../zh/about/index.html">公司简介</a><a href="../../../zh/about/index.html">专家团队</a><a href="../../../zh/about/index.html">质量保障</a><a href="../../../zh/about/index.html">加入我们</a></div></div>
+        <div><h3>联系</h3><div class="links"><a href="tel:+8615608217316">📞 +86 15608217316</a><a href="mailto:project@transyes.cn">✉ project@transyes.cn</a><span>微 微信：有译思（TransYes）</span><span>博 微博：有译思</span><a href="https://www.transyes.cn">🌐 www.transyes.cn</a><span>📍 北京市海淀区西三环北路二号北京外国语大学东院</span><span>📍 成都分公司：四川省成都市成华区玉双路2号6层</span><div class="qr media media-qr-wechat"></div></div></div></div>
+      </div>
+      <div class="footend"><div>Copyright © 2024 有译思 | 京ICP备19042205号-1</div><div class="langs"><a class="active" href="../../../zh/index.html">中文</a><a href="../../../en/index.html">EN</a><a href="../../../fr/index.html">FR</a><a href="../../../es/index.html">ES</a><a href="../../../de/index.html">DE</a><a href="../../../ar/index.html">العربية</a></div></div>
+    </footer>
+  </template>
+  <div id="site-footer"></div>
+  <script src="../../../assets/js/site.js"></script>
+  <script>
+    window.loadTransyesComponents({
+      header: "../../../components/header.html",
+      siteRoot: "/transyes",
+      footer: "../../../components/footer.html",
+      fallbackHeaderId: "site-header-fallback",
+      fallbackFooterId: "site-footer-fallback"
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,145 @@
+:root{--blue:#141948;--hero:#0f1b46;--top:#0c1030;--yellow:#fbe108;--btn:#e7cc4a;--bg:#f5f4f1;--shell:#fff;--shellb:#f7f9fc;--shellw:#fffbea;--text:#4b5563;--strong:#141948;--line:#e5e7eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 "Noto Sans SC","Inter",sans-serif}body.en,body.fr,body.es,body.de{font-family:"Inter","Noto Sans SC",sans-serif}body.rtl{direction:rtl;font-family:"Noto Sans Arabic","Inter",sans-serif}
+a{text-decoration:none;color:inherit}.container,.shell,.cta,.footer,.strip{width:min(1140px,calc(100% - 32px));margin:0 auto}.sp{height:20px}
+.topbar{background:var(--top);color:rgba(255,255,255,.55);font-size:12px}.topin,.headin,.footend{width:min(1140px,calc(100% - 32px));margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:16px}.topin{min-height:34px}.row,.langs,.nav,.actions,.pills,.tags,.links{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.pills{margin-top:20px}.langs .active,.topbar a:hover,.nav a:hover,.footer a:hover{color:var(--yellow)}
+.header{position:sticky;top:0;z-index:20;background:rgba(20,25,72,.96);backdrop-filter:blur(10px)}.headin{min-height:70px}.brand{display:flex;align-items:center;gap:12px;color:#fff}.mark{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--yellow),#d8be42);display:grid;place-items:center;color:var(--blue);font-weight:800}.brand small{display:block;color:rgba(255,255,255,.55)}
+.nav{gap:24px}.nav a{color:rgba(255,255,255,.86);font-size:14px}.navw{display:flex;align-items:center;gap:24px}.ctaBtn,.btn,.btn2,.btn3{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 18px;border-radius:10px;font-weight:600;font-size:14px}.ctaBtn,.btn{background:var(--btn);color:var(--blue)}.btn2{border:1px solid rgba(255,255,255,.24);color:#fff}.btn3{background:var(--blue);color:#fff}
+.hero{background:var(--hero);border-radius:0 0 28px 28px;position:relative;overflow:hidden}.flow{position:absolute;inset:0;opacity:.05;display:flex;flex-direction:column;justify-content:center;gap:6px;pointer-events:none;overflow:hidden}.flow div{display:flex;gap:32px;white-space:nowrap;color:#fff;font-size:clamp(28px,6vw,58px);font-weight:700}.flow div:nth-child(odd){animation:flowLeft 30s linear infinite}.flow div:nth-child(even){animation:flowRight 35s linear infinite}.heroin{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:36px;align-items:center;padding:72px 0 52px}.hero h1,.page h1{margin:0 0 12px;color:#fff;font-size:clamp(34px,5vw,50px);line-height:1.2}.hl{color:var(--yellow)}.type{min-height:36px;height:36px;display:flex;align-items:center;overflow:hidden;color:var(--btn);font-size:clamp(19px,2.6vw,24px);margin-bottom:10px}.type [data-typed]{display:inline-block;white-space:nowrap}.note{max-width:680px;color:rgba(255,255,255,.66);margin:0 0 24px}.pill{padding:6px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.64);font-size:12px}
+.panel,.card,.metric,.faq,.step,.quote{background:#fff;border:1px solid var(--line);border-radius:16px}.panel{min-height:280px;padding:24px;display:grid;place-items:center;text-align:center;color:rgba(255,255,255,.6);background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.05),rgba(255,255,255,.05) 12px,rgba(255,255,255,.09) 12px,rgba(255,255,255,.09) 24px)}
+.shell{padding:44px 36px;border-radius:28px;background:var(--shell)}.blue{background:var(--shellb)}.warm{background:var(--shellw);border-top:3px solid var(--yellow)}.k{display:inline-block;background:rgba(231,204,74,.18);padding:6px 12px;border-radius:999px;color:var(--strong);font-size:12px;margin-bottom:14px}.shell h2,.page h2{margin:0 0 8px;color:var(--strong);font-size:clamp(28px,4vw,38px);line-height:1.2}.desc,.card p,.faqans,.list p{color:#6b7280}
+.g2,.g3,.g4,.g6,.metrics,.process,.guars,.cases,.faqs,.split,.qgrid,.formgrid{display:grid;gap:18px}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g4,.metrics{grid-template-columns:repeat(4,minmax(0,1fr))}.g6{grid-template-columns:repeat(6,minmax(0,1fr))}.process{grid-template-columns:repeat(4,minmax(0,1fr))}.guars{grid-template-columns:repeat(3,minmax(0,1fr))}.split{grid-template-columns:1.2fr .8fr}.qgrid{grid-template-columns:1.1fr .9fr}.formgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trustlogos{margin-top:24px}
+.strip{padding-top:28px}.svc{padding:24px 18px;text-align:center;border-top:3px solid transparent}.svc:nth-child(1){border-top-color:var(--blue)}.svc:nth-child(2){border-top-color:#3b5998}.svc:nth-child(3){border-top-color:var(--btn)}.icon,.logo,.wide{border-radius:12px;display:grid;place-items:center;text-align:center}.icon{min-height:82px;margin-bottom:14px;background:repeating-linear-gradient(45deg,#eceff3,#eceff3 12px,#f6f7f9 12px,#f6f7f9 24px);color:#8791a0}.logo{min-height:48px;background:repeating-linear-gradient(45deg,#e7edf5,#e7edf5 12px,#f0f3f8 12px,#f0f3f8 24px);color:#7a8ca3;font-size:11px}.wide{min-height:180px;padding:24px;background:repeating-linear-gradient(45deg,#f5eeb8,#f5eeb8 12px,#fbf5ca 12px,#fbf5ca 24px);color:#85773d}
+.media{position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(20,25,72,.14),rgba(20,25,72,.04));color:#fff}
+.media.media-ready{background:none;border-color:transparent}
+.media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,18,49,.08),rgba(11,18,49,.48));pointer-events:none}
+.media.media-ready::after{display:none}
+.media-img{display:block;width:100%;height:auto;border-radius:inherit}
+.media-label{position:relative;z-index:1;max-width:100%;padding:12px 14px;border-radius:12px;background:rgba(11,18,49,.42);backdrop-filter:blur(4px);color:rgba(255,255,255,.92);font-size:13px;line-height:1.5}
+.media-label strong{display:block;color:#fff}
+.panel.media:not(.media-ready){min-height:280px;padding:24px;display:grid;place-items:center;text-align:center}
+.panel.media.media-ready{min-height:0;padding:0;display:block}
+.wide.media:not(.media-ready){min-height:180px;padding:24px;display:grid;place-items:center;text-align:center}
+.wide.media.media-ready{min-height:0;padding:0;display:block}
+.icon.media:not(.media-ready){min-height:82px;margin-bottom:14px;display:grid;place-items:center;text-align:center}
+.icon.media.media-ready{min-height:0;margin-bottom:14px;display:flex;justify-content:center;align-items:center;padding:0;background:transparent}
+.qr.media:not(.media-ready){width:84px;height:84px;display:grid;place-items:center}
+.qr.media.media-ready{width:auto;height:auto;display:inline-flex;padding:0;background:transparent}
+.icon.media .media-label{padding:8px 10px;font-size:11px}
+.qr.media .media-label{padding:6px 8px;font-size:10px}
+.media.media-ready .media-label{display:none}
+.panel.media.media-ready .media-img,.wide.media.media-ready .media-img{width:100%}
+.icon.media.media-ready .media-img{width:auto;max-width:100%;height:auto;max-height:160px}
+.qr.media.media-ready .media-img{width:auto;max-width:140px;height:auto;max-height:140px}
+.media-zh-home-hero{--media-image:url("../images/zh/home/hero-main.jpg")}
+.media-zh-home-academic-banner{--media-image:url("../images/zh/home/academic-banner.jpg")}
+.media-icon-zh-translation{--media-image:url("../images/icons/translation-zh.jpg")}
+.media-icon-zh-interpreting{--media-image:url("../images/icons/interpreting-zh.jpg")}
+.media-icon-zh-academic{--media-image:url("../images/icons/academic-zh.jpg")}
+.media-zh-about-team{--media-image:url("../images/zh/about/team-brand.jpg")}
+.media-zh-quote-form{--media-image:url("../images/zh/quote/form-upload.jpg")}
+.media-zh-industries-channel{--media-image:url("../images/zh/industries/channel.jpg")}
+.media-zh-industry-education{--media-image:url("../images/zh/industries/education.jpg")}
+.media-zh-industry-government{--media-image:url("../images/zh/industries/government.jpg")}
+.media-zh-industry-pharma{--media-image:url("../images/zh/industries/pharma.jpg")}
+.media-zh-industry-legal-policy{--media-image:url("../images/zh/industries/legal-policy.jpg")}
+.media-zh-industry-finance{--media-image:url("../images/zh/industries/finance.jpg")}
+.media-zh-industry-tech{--media-image:url("../images/zh/industries/tech.jpg")}
+.media-zh-industry-media{--media-image:url("../images/zh/industries/media.jpg")}
+.media-zh-cases-channel{--media-image:url("../images/zh/cases/channel.jpg")}
+.media-zh-cases-featured{--media-image:url("../images/zh/cases/featured.jpg")}
+.media-zh-cases-translation{--media-image:url("../images/zh/cases/translation.jpg")}
+.media-zh-cases-interpreting{--media-image:url("../images/zh/cases/interpreting.jpg")}
+.media-zh-cases-academic{--media-image:url("../images/zh/cases/academic.jpg")}
+.media-zh-cases-localization{--media-image:url("../images/zh/cases/localization.jpg")}
+.media-zh-cases-testimonials{--media-image:url("../images/zh/cases/testimonials.jpg")}
+.media-zh-resources-channel{--media-image:url("../images/zh/resources/channel.jpg")}
+.media-zh-resources-blog{--media-image:url("../images/zh/resources/blog.jpg")}
+.media-zh-resources-knowledge{--media-image:url("../images/zh/resources/knowledge.jpg")}
+.media-zh-resources-academic-guide{--media-image:url("../images/zh/resources/academic-guide.jpg")}
+.media-zh-resources-checklist{--media-image:url("../images/zh/resources/interpreting-checklist.jpg")}
+.media-zh-resources-faq{--media-image:url("../images/zh/resources/faq.jpg")}
+.media-zh-resources-downloads{--media-image:url("../images/zh/resources/downloads.jpg")}
+.media-zh-service-academic{--media-image:url("../images/zh/services/academic-channel.jpg")}
+.media-zh-service-translation-channel{--media-image:url("../images/zh/services/translation-channel.jpg")}
+.media-zh-service-interpreting-channel{--media-image:url("../images/zh/services/interpreting-channel.jpg")}
+.media-zh-service-localization-channel{--media-image:url("../images/zh/services/localization-channel.jpg")}
+.media-zh-service-multimedia-channel{--media-image:url("../images/zh/services/multimedia-channel.jpg")}
+.media-zh-service-translation-business{--media-image:url("../images/zh/services/translation-business.jpg")}
+.media-zh-service-translation-legal{--media-image:url("../images/zh/services/translation-legal.jpg")}
+.media-zh-service-translation-finance{--media-image:url("../images/zh/services/translation-finance.jpg")}
+.media-zh-service-translation-medical{--media-image:url("../images/zh/services/translation-medical.jpg")}
+.media-zh-service-translation-technology{--media-image:url("../images/zh/services/translation-technology.jpg")}
+.media-zh-service-translation-reports{--media-image:url("../images/zh/services/translation-reports.jpg")}
+.media-zh-service-translation-certificate{--media-image:url("../images/zh/services/translation-certificate.jpg")}
+.media-zh-service-interpreting-simultaneous{--media-image:url("../images/zh/services/interpreting-simultaneous.jpg")}
+.media-zh-service-interpreting-consecutive{--media-image:url("../images/zh/services/interpreting-consecutive.jpg")}
+.media-zh-service-interpreting-conference{--media-image:url("../images/zh/services/interpreting-conference.jpg")}
+.media-zh-service-interpreting-escort{--media-image:url("../images/zh/services/interpreting-escort.jpg")}
+.media-zh-service-interpreting-remote{--media-image:url("../images/zh/services/interpreting-remote.jpg")}
+.media-zh-service-interpreting-executive{--media-image:url("../images/zh/services/interpreting-executive.jpg")}
+.media-zh-service-localization-website{--media-image:url("../images/zh/services/localization-website.jpg")}
+.media-zh-service-localization-app{--media-image:url("../images/zh/services/localization-app.jpg")}
+.media-zh-service-localization-marketing{--media-image:url("../images/zh/services/localization-marketing.jpg")}
+.media-zh-service-localization-multilingual{--media-image:url("../images/zh/services/localization-multilingual.jpg")}
+.media-zh-service-multimedia-subtitling{--media-image:url("../images/zh/services/multimedia-subtitling.jpg")}
+.media-zh-service-multimedia-transcription{--media-image:url("../images/zh/services/multimedia-transcription.jpg")}
+.media-zh-service-multimedia-voiceover{--media-image:url("../images/zh/services/multimedia-voiceover.jpg")}
+.media-zh-service-multimedia-dtp{--media-image:url("../images/zh/services/multimedia-dtp.jpg")}
+.media-zh-service-multimedia-visual-adaptation{--media-image:url("../images/zh/services/multimedia-visual-adaptation.jpg")}
+.media-en-home-hero{--media-image:url("../images/en/home/hero-main.jpg")}
+.media-icon-en-translation{--media-image:url("../images/icons/translation-zh.jpg")}
+.media-icon-en-interpreting{--media-image:url("../images/icons/interpreting-zh.jpg")}
+.media-icon-en-localization{--media-image:url("../images/icons/academic-zh.jpg")}
+.media-en-about-team{--media-image:url("../images/en/about/team.jpg")}
+.media-en-quote-form{--media-image:url("../images/en/quote/form-upload.jpg")}
+.media-en-cases-channel{--media-image:url("../images/en/case-studies/channel.jpg")}
+.media-en-industries-channel{--media-image:url("../images/en/industry-solutions/channel.jpg")}
+.media-en-insights-channel{--media-image:url("../images/en/insights/channel.jpg")}
+.media-en-localization-hero{--media-image:url("../images/en/localization/hero.jpg")}
+.media-en-service-translation-channel{--media-image:url("../images/en/services/translation-channel.jpg")}
+.media-en-service-interpreting-channel{--media-image:url("../images/en/services/interpreting-channel.jpg")}
+.media-en-service-localization-channel{--media-image:url("../images/en/services/localization-channel.jpg")}
+.media-en-service-academic-channel{--media-image:url("../images/en/services/academic-channel.jpg")}
+.media-en-service-multimedia-channel{--media-image:url("../images/en/services/multimedia-channel.jpg")}
+.media-en-industry-finance-business{--media-image:url("../images/en/industry-solutions/finance-business.jpg")}
+.media-en-industry-government-public-sector{--media-image:url("../images/en/industry-solutions/government-public-sector.jpg")}
+.media-en-industry-legal-policy{--media-image:url("../images/en/industry-solutions/legal-policy.jpg")}
+.media-en-industry-life-sciences-medical{--media-image:url("../images/en/industry-solutions/life-sciences-medical.jpg")}
+.media-en-industry-media-publishing{--media-image:url("../images/en/industry-solutions/media-publishing.jpg")}
+.media-en-industry-technology-manufacturing{--media-image:url("../images/en/industry-solutions/technology-manufacturing.jpg")}
+.media-en-service-translation-business{--media-image:url("../images/en/services/translation-business.jpg")}
+.media-en-service-translation-legal{--media-image:url("../images/en/services/translation-legal.jpg")}
+.media-en-service-translation-finance{--media-image:url("../images/en/services/translation-finance.jpg")}
+.media-en-service-translation-medical{--media-image:url("../images/en/services/translation-medical.jpg")}
+.media-en-service-translation-technology{--media-image:url("../images/en/services/translation-technology.jpg")}
+.media-en-service-translation-reports{--media-image:url("../images/en/services/translation-reports.jpg")}
+.media-en-service-translation-certificate{--media-image:url("../images/en/services/translation-certificate.jpg")}
+.media-en-service-interpreting-simultaneous{--media-image:url("../images/en/services/interpreting-simultaneous.jpg")}
+.media-en-service-interpreting-consecutive{--media-image:url("../images/en/services/interpreting-consecutive.jpg")}
+.media-en-service-interpreting-conference{--media-image:url("../images/en/services/interpreting-conference.jpg")}
+.media-en-service-interpreting-escort{--media-image:url("../images/en/services/interpreting-escort.jpg")}
+.media-en-service-interpreting-remote{--media-image:url("../images/en/services/interpreting-remote.jpg")}
+.media-en-service-interpreting-executive{--media-image:url("../images/en/services/interpreting-executive.jpg")}
+.media-en-service-localization-website{--media-image:url("../images/en/services/localization-website.jpg")}
+.media-en-service-localization-app{--media-image:url("../images/en/services/localization-app.jpg")}
+.media-en-service-localization-marketing{--media-image:url("../images/en/services/localization-marketing.jpg")}
+.media-en-service-localization-multilingual{--media-image:url("../images/en/services/localization-multilingual.jpg")}
+.media-light-fr-main{--media-image:url("../images/light/fr/main.jpg")}
+.media-light-es-main{--media-image:url("../images/light/es/main.jpg")}
+.media-light-de-main{--media-image:url("../images/light/de/main.jpg")}
+.media-light-ar-main{--media-image:url("../images/light/ar/main.jpg")}
+.media-qr-wechat{--media-image:url("../images/qr/wechat.png")}
+.card,.step,.quote{padding:22px}.metric{text-align:center;padding:18px}.metric b{display:block;font-size:34px;color:var(--strong)}.tag{display:inline-flex;align-items:center;min-height:34px;padding:0 14px;border-radius:999px;background:rgba(20,25,72,.06);color:var(--strong);font-size:12px}.outline{background:#fff;border:1px solid #d7dfea;color:#5a6a7a}
+.quoteform{display:grid;gap:18px}.field{display:grid;gap:8px}.field label{font-size:14px;font-weight:600;color:var(--strong)}.input,.select,.textarea{width:100%;padding:12px 14px;border:1px solid #d6dce7;border-radius:12px;background:#fff;color:var(--strong);font:inherit}.textarea{min-height:140px;resize:vertical}.checks{display:flex;flex-wrap:wrap;gap:10px}.checks label{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid #d6dce7;border-radius:999px;background:#fff;color:var(--strong);font-size:14px}.hint,.success{font-size:14px;color:#6b7280}.success{padding:12px 14px;border-radius:12px;background:rgba(20,25,72,.05);color:var(--strong)}
+.case{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:18px;padding:22px}.meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}.num{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--blue);color:var(--yellow);font-weight:700;margin:0 auto 10px}
+.faqbtn{width:100%;border:0;background:transparent;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:20px;color:var(--strong);font:inherit;font-weight:600;text-align:left;cursor:pointer}.faqans{display:none;padding:0 20px 18px}.faq.open .faqans{display:block}
+.cta{padding:54px 36px;border-radius:28px 28px 0 0;background:var(--blue);color:#fff;text-align:center}.cta p{max-width:700px;margin:0 auto 24px;color:rgba(255,255,255,.68)}
+.footer{padding:34px 36px 24px;border-radius:0 0 28px 28px;background:var(--top);color:rgba(255,255,255,.56);margin-bottom:20px}.foot{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}.footer h3{margin:0 0 12px;color:rgba(255,255,255,.88);font-size:14px}.links{flex-direction:column;align-items:flex-start;gap:8px}.footend{margin-top:24px;padding-top:18px;border-top:1px solid rgba(255,255,255,.08);font-size:12px;color:rgba(255,255,255,.42)}.qr{width:84px;height:84px;border-radius:12px;display:grid;place-items:center;background:repeating-linear-gradient(45deg,rgba(255,255,255,.05),rgba(255,255,255,.05) 10px,rgba(255,255,255,.09) 10px,rgba(255,255,255,.09) 20px);color:rgba(255,255,255,.66);font-size:11px}
+.page{padding:64px 0 34px}.intro{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:26px;align-items:start}.muted{padding:16px 18px;border-radius:14px;background:rgba(20,25,72,.04);color:#6b7280}
+.toggle{display:none}
+@keyframes flowLeft{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes flowRight{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@media (prefers-reduced-motion:reduce){.flow{display:none}.type{height:auto;min-height:36px}}
+@media (max-width:960px){.heroin,.intro,.split,.qgrid,.formgrid{grid-template-columns:1fr}.g6{grid-template-columns:repeat(3,minmax(0,1fr))}.g4,.metrics,.process{grid-template-columns:repeat(2,minmax(0,1fr))}.case{grid-template-columns:1fr}}
+@media (max-width:820px){.toggle{display:inline-flex;width:42px;height:42px;border-radius:10px;border:1px solid rgba(255,255,255,.18);background:transparent;color:#fff;align-items:center;justify-content:center}.navw{display:none;position:absolute;top:68px;left:14px;right:14px;padding:18px;border-radius:18px;background:rgba(12,16,48,.98);border:1px solid rgba(255,255,255,.08);flex-direction:column;align-items:flex-start}.navw.open{display:flex}.nav{flex-direction:column;align-items:flex-start;gap:14px}.shell,.cta,.footer{padding:32px 22px}.g3,.foot{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.g2,.g3,.g4,.g6,.metrics,.process,.guars,.foot{grid-template-columns:1fr}.actions{flex-direction:column;align-items:stretch}.type{height:auto;min-height:36px}.type [data-typed]{white-space:normal}}

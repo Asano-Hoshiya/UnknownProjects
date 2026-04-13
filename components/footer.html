@@ -1,0 +1,266 @@
+﻿<style>
+.final-cta {
+  background: linear-gradient(160deg, #141948, #1c2260);
+  border-radius: 28px 28px 0 0;
+  padding: 64px 40px;
+  text-align: center;
+  color: #fff;
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.final-cta::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(251,225,8,0.06), transparent 70%);
+  bottom: -150px;
+  left: -100px;
+  pointer-events: none;
+}
+.final-cta h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: relative;
+  letter-spacing: -0.3px;
+}
+.final-cta p {
+  font-size: 16px;
+  color: rgba(255,255,255,0.45);
+  margin-bottom: 28px;
+  position: relative;
+}
+.final-cta .cta-btns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.final-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 13px 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.final-cta .btn-y {
+  background: #E7CC4A;
+  color: #141948;
+}
+.final-cta .btn-y:hover {
+  background: #FBE108;
+  box-shadow: 0 4px 20px rgba(251,225,8,0.3);
+}
+.final-cta .btn-w {
+  background: transparent;
+  color: rgba(255,255,255,0.8);
+  border: 1.5px solid rgba(255,255,255,0.2);
+}
+.final-cta .btn-w:hover {
+  color: #FBE108;
+  border-color: #FBE108;
+}
+.site-footer {
+  background: #0c1030;
+  padding: 40px 44px;
+  color: rgba(255,255,255,0.35);
+  font-size: 13px;
+  max-width: 1140px;
+  margin: 0 auto;
+  border-radius: 0 0 28px 28px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.2fr;
+  gap: 28px;
+}
+.site-footer h5 {
+  color: rgba(255,255,255,0.6);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.site-footer a {
+  color: rgba(255,255,255,0.35);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  transition: color 0.15s;
+}
+.site-footer a:hover {
+  color: #FBE108;
+}
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.35);
+}
+.footer-contact-item a {
+  margin-bottom: 0;
+  display: inline;
+}
+.footer-contact-icon {
+  width: 36px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+.footer-qr {
+  margin-top: 14px;
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: rgba(255,255,255,0.25);
+  overflow: hidden;
+}
+.footer-qr img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer-bottom {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.footer-langs {
+  font-size: 12px;
+}
+.footer-langs a {
+  display: inline;
+  margin: 0;
+}
+.footer-langs a.active {
+  color: #FBE108;
+}
+.footer-spacer {
+  height: 20px;
+}
+@media (max-width: 768px) {
+  .final-cta {
+    padding: 48px 20px;
+    border-radius: 20px 20px 0 0;
+  }
+  .site-footer {
+    padding: 32px 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+</style>
+
+<section class="final-cta">
+  <h2>鍑嗗寮€濮嬫偍鐨勯」鐩紵</h2>
+  <p>鏃犺鏄晢鍔″悎鍚屻€佸浗闄呬細璁紝杩樻槸 SCI 璁烘枃娑﹁壊锛屾垜浠兘鍙互浠庨渶姹傛⒊鐞嗗紑濮嬶紝蹇€熻繘鍏ユ姤浠蜂笌鎵ц銆?/p>
+  <div class="cta-btns">
+    <a href="/zh/quote/index.html" class="btn btn-y">鑾峰彇鎶ヤ环</a>
+    <a href="/zh/quote/index.html" class="btn btn-w">涓婁紶鏂囦欢</a>
+    <a href="mailto:project@transyes.cn" class="btn btn-w">閭欢鑱旂郴</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h5>鏈嶅姟</h5>
+      <a href="/zh/services/translation/index.html">绗旇瘧鏈嶅姟</a>
+      <a href="/zh/services/interpreting/index.html">鍙ｈ瘧鏈嶅姟</a>
+      <a href="/zh/services/academic/index.html">瀛︽湳缈昏瘧</a>
+      <a href="/zh/services/localization/index.html">鏈湴鍖栦笌鍐呭鍑烘捣</a>
+      <a href="/zh/services/multimedia/index.html">澶氬獟浣撲笌鎺掔増</a>
+    </div>
+    <div>
+      <h5>琛屼笟</h5>
+      <a href="/zh/industries/education.html">楂樻牎涓庣鐮?/a>
+      <a href="/zh/industries/government.html">鏀垮簻涓庡叕鍏辨満鏋?/a>
+      <a href="/zh/industries/pharma.html">鐢熺墿鍖昏嵂</a>
+      <a href="/zh/industries/finance.html">閲戣瀺涓庣粡璐?/a>
+      <a href="/zh/industries/legal-policy.html">娉曞緥涓庢斂绛?/a>
+      <a href="/zh/industries/tech.html">鍟嗕笟绉戞妧</a>
+    </div>
+    <div>
+      <h5>鍏充簬</h5>
+      <a href="/zh/about/index.html">鍏徃绠€浠?/a>
+      <a href="/zh/about/index.html">涓撳鍥㈤槦</a>
+      <a href="/zh/about/index.html">璐ㄩ噺淇濋殰</a>
+      <a href="/zh/about/index.html">鏈嶅姟娴佺▼</a>
+      <a href="/zh/about/index.html">鍔犲叆鎴戜滑</a>
+    </div>
+    <div>
+      <h5>鑱旂郴鎴戜滑</h5>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">Tel</span>
+        <a href="tel:+8615608217316">+86 15608217316</a>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">Mail</span>
+        <a href="mailto:project@transyes.cn">project@transyes.cn</a>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">WeChat</span>
+        <span>鏈夎瘧鎬濓紙TransYes锛?/span>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">Weibo</span>
+        <span>鏈夎瘧鎬?/span>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">Web</span>
+        <a href="https://www.transyes.cn">www.transyes.cn</a>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">Addr</span>
+        <span>鍖椾含甯傛捣娣€鍖鸿タ涓夌幆鍖楄矾浜屽彿鍖椾含澶栧浗璇ぇ瀛︿笢闄?/span>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon">Branch</span>
+        <span>鎴愰兘鍒嗗叕鍙革細鍥涘窛鐪佹垚閮藉競鎴愬崕鍖虹帀鍙岃矾2鍙?灞?/span>
+      </div>
+      <div class="footer-qr qr media media-qr-wechat">
+        <div class="media-label">寰俊浜岀淮鐮?/div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>Copyright &copy; 2024 鏈夎瘧鎬?| 浜琁CP澶?9042205鍙?1</div>
+    <div class="footer-langs">
+      <a href="/index.html" class="active">涓枃</a> |
+      <a href="/en/index.html">EN</a> |
+      <a href="/fr/index.html">FR</a> |
+      <a href="/es/index.html">ES</a> |
+      <a href="/de/index.html">DE</a> |
+      <a href="/ar/index.html">丕賱毓乇亘賷丞</a>
+    </div>
+  </div>
+</footer>
+<div class="footer-spacer"></div>
+
+

@@ -1,0 +1,835 @@
+[
+  {
+    "path": "zh/about/team-brand.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "team brand zh about team",
+    "url": "https://cdn.pixabay.com/photo/2019/09/09/07/17/race-4462878_1280.jpg"
+  },
+  {
+    "path": "zh/quote/form-upload.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "form upload zh quote form",
+    "url": "https://cdn.pixabay.com/photo/2014/11/29/17/57/forge-550622_1280.jpg"
+  },
+  {
+    "path": "zh/industries/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "channel zh industries",
+    "url": "https://cdn.pixabay.com/photo/2023/02/04/22/10/pipe-system-7768312_1280.jpg"
+  },
+  {
+    "path": "zh/cases/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "channel zh cases",
+    "url": "https://cdn.pixabay.com/photo/2020/06/29/17/32/snail-5353573_1280.jpg"
+  },
+  {
+    "path": "zh/resources/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "channel zh resources",
+    "url": "https://cdn.pixabay.com/photo/2016/06/01/06/26/open-book-1428428_1280.jpg"
+  },
+  {
+    "path": "zh/services/academic-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "academic channel zh services academic",
+    "url": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg"
+  },
+  {
+    "path": "zh/services/translation-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "translation channel zh services translation",
+    "url": "https://cdn.pixabay.com/photo/2013/05/12/09/37/translate-110777_1280.jpg"
+  },
+  {
+    "path": "zh/services/interpreting-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "interpreting channel zh services interpreting",
+    "url": "https://cdn.pixabay.com/photo/2013/05/12/09/36/globe-110775_1280.jpg"
+  },
+  {
+    "path": "zh/services/localization-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "localization channel zh services localization",
+    "url": "https://cdn.pixabay.com/photo/2014/11/23/18/12/school-543041_1280.jpg"
+  },
+  {
+    "path": "zh/services/multimedia-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "multimedia channel zh services multimedia",
+    "url": "https://cdn.pixabay.com/photo/2018/01/06/07/53/social-3064515_1280.jpg"
+  },
+  {
+    "path": "en/home/hero-main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "hero main en home hero",
+    "url": "https://cdn.pixabay.com/photo/2016/12/05/21/55/super-woman-1885016_1280.jpg"
+  },
+  {
+    "path": "en/about/team.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "team en about",
+    "url": "https://cdn.pixabay.com/photo/2017/03/17/05/09/about-us-2150927_1280.png"
+  },
+  {
+    "path": "en/quote/form-upload.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "form upload en quote form",
+    "url": "https://cdn.pixabay.com/photo/2019/08/26/12/32/feather-4431599_1280.jpg"
+  },
+  {
+    "path": "en/case-studies/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "channel en case studies",
+    "url": "https://cdn.pixabay.com/photo/2017/06/21/09/54/the-2426742_1280.jpg"
+  },
+  {
+    "path": "en/industry-solutions/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "channel en industry solutions",
+    "url": "https://cdn.pixabay.com/photo/2017/01/26/08/07/light-bulb-2010022_1280.jpg"
+  },
+  {
+    "path": "en/insights/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "channel en insights",
+    "url": "https://cdn.pixabay.com/photo/2022/05/20/10/07/window-7209119_1280.jpg"
+  },
+  {
+    "path": "en/localization/hero.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "hero en localization",
+    "url": "https://cdn.pixabay.com/photo/2016/12/05/21/55/super-woman-1885016_1280.jpg"
+  },
+  {
+    "path": "light/fr/main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "main light fr",
+    "url": "https://cdn.pixabay.com/photo/2022/09/06/07/49/cat-7436051_1280.jpg"
+  },
+  {
+    "path": "light/es/main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "main light es",
+    "url": "https://cdn.pixabay.com/photo/2016/03/31/20/40/afternoon-1295963_1280.png"
+  },
+  {
+    "path": "light/de/main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "main light de",
+    "url": "https://cdn.pixabay.com/photo/2022/09/06/07/49/cat-7436051_1280.jpg"
+  },
+  {
+    "path": "light/ar/main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "main light ar",
+    "url": "https://cdn.pixabay.com/photo/2016/11/21/13/51/woman-1845517_1280.jpg"
+  },
+  {
+    "path": "zh/home/hero-main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business meeting documents team office",
+    "url": "https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg"
+  },
+  {
+    "path": "zh/home/academic-banner.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "researchers library discussion papers",
+    "url": "https://cdn.pixabay.com/photo/2014/09/26/16/38/books-462579_1280.jpg"
+  },
+  {
+    "path": "icons/translation-zh.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "documents desk paperwork close up",
+    "url": "https://cdn.pixabay.com/photo/2018/03/03/20/02/laptop-3196481_1280.jpg"
+  },
+  {
+    "path": "icons/interpreting-zh.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "headset microphone conference desk",
+    "url": "https://cdn.pixabay.com/photo/2023/05/08/13/24/laptop-7978588_1280.jpg"
+  },
+  {
+    "path": "icons/academic-zh.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "research paper desk close up",
+    "url": "https://cdn.pixabay.com/photo/2016/11/22/23/09/fountain-pen-1851096_1280.jpg"
+  },
+  {
+    "path": "zh/about/team-brand.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "professional team meeting office",
+    "url": "https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261_1280.jpg"
+  },
+  {
+    "path": "zh/quote/form-upload.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "laptop documents desk office",
+    "url": "https://cdn.pixabay.com/photo/2018/02/08/10/22/desk-3139127_1280.jpg"
+  },
+  {
+    "path": "zh/industries/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business healthcare education technology collage",
+    "url": "https://cdn.pixabay.com/photo/2017/08/01/00/44/laptop-2562361_1280.jpg"
+  },
+  {
+    "path": "zh/industries/education.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "university research discussion",
+    "url": "https://cdn.pixabay.com/photo/2015/07/31/11/45/library-869061_1280.jpg"
+  },
+  {
+    "path": "zh/industries/government.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "formal meeting conference government style",
+    "url": "https://cdn.pixabay.com/photo/2016/08/16/09/53/crystal710-event-venue-1597531_1280.jpg"
+  },
+  {
+    "path": "zh/industries/pharma.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "medical research documents team",
+    "url": "https://cdn.pixabay.com/photo/2017/10/04/09/56/chemist-2815640_1280.jpg"
+  },
+  {
+    "path": "zh/industries/legal-policy.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "lawyer reviewing contract desk",
+    "url": "https://cdn.pixabay.com/photo/2022/04/10/16/42/adart00090-lawyer-7123799_1280.jpg"
+  },
+  {
+    "path": "zh/industries/finance.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "finance team annual report meeting",
+    "url": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png"
+  },
+  {
+    "path": "zh/industries/tech.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "engineers reviewing documents laptop",
+    "url": "https://cdn.pixabay.com/photo/2018/02/08/10/22/desk-3139127_1280.jpg"
+  },
+  {
+    "path": "zh/industries/media.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "editorial team layout discussion",
+    "url": "https://cdn.pixabay.com/photo/2017/05/04/16/37/meeting-2284501_1280.jpg"
+  },
+  {
+    "path": "zh/cases/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business meeting documents conference collage",
+    "url": "https://cdn.pixabay.com/photo/2018/03/10/12/00/teamwork-3213924_1280.jpg"
+  },
+  {
+    "path": "zh/cases/featured.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "executive meeting report documents",
+    "url": "https://cdn.pixabay.com/photo/2018/02/26/19/08/report-3183779_1280.jpg"
+  },
+  {
+    "path": "zh/cases/translation.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "team reviewing reports documents",
+    "url": "https://cdn.pixabay.com/photo/2019/10/25/11/07/business-4576778_1280.jpg"
+  },
+  {
+    "path": "zh/cases/interpreting.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "conference interpreter meeting",
+    "url": "https://cdn.pixabay.com/photo/2016/08/16/09/53/crystal710-event-venue-1597531_1280.jpg"
+  },
+  {
+    "path": "zh/cases/academic.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "researcher editing paper desk",
+    "url": "https://cdn.pixabay.com/photo/2015/05/15/02/07/computer-767781_1280.jpg"
+  },
+  {
+    "path": "zh/cases/localization.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "team reviewing website on laptop",
+    "url": "https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673_1280.jpg"
+  },
+  {
+    "path": "zh/cases/testimonials.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business interview office",
+    "url": "https://cdn.pixabay.com/photo/2020/01/21/17/17/hr-process-4783430_1280.png"
+  },
+  {
+    "path": "zh/resources/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "office desk documents notebook laptop",
+    "url": "https://cdn.pixabay.com/photo/2018/02/08/10/22/desk-3139127_1280.jpg"
+  },
+  {
+    "path": "zh/resources/blog.jpg",
+    "status": "downloaded",
+    "provider": "wikimedia",
+    "query": "content planning desk laptop notes",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Administrative_Notes_%28IA_568391_18_12%29.pdf/page1-960px-Administrative_Notes_%28IA_568391_18_12%29.pdf.jpg"
+  },
+  {
+    "path": "zh/resources/knowledge.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "organized documents reference desk",
+    "url": "https://cdn.pixabay.com/photo/2020/04/04/03/42/paperwork-5000691_1280.png"
+  },
+  {
+    "path": "zh/resources/academic-guide.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "academic writing desk books papers",
+    "url": "https://cdn.pixabay.com/photo/2022/11/08/07/53/desk-7577945_1280.jpg"
+  },
+  {
+    "path": "zh/resources/interpreting-checklist.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "headset notebook agenda desk",
+    "url": "https://cdn.pixabay.com/photo/2016/06/28/05/10/laptop-1483974_1280.jpg"
+  },
+  {
+    "path": "zh/resources/faq.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "customer support office laptop",
+    "url": "https://cdn.pixabay.com/photo/2014/12/27/15/40/office-581131_1280.jpg"
+  },
+  {
+    "path": "zh/resources/downloads.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "organized files laptop desk",
+    "url": "https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_1280.jpg"
+  },
+  {
+    "path": "zh/services/academic-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "research collaboration papers office",
+    "url": "https://cdn.pixabay.com/photo/2018/03/03/20/02/laptop-3196481_1280.jpg"
+  },
+  {
+    "path": "zh/services/translation-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "documents reports contracts desk",
+    "url": "https://cdn.pixabay.com/photo/2020/11/03/15/32/man-5710164_1280.jpg"
+  },
+  {
+    "path": "zh/services/interpreting-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "conference headset meeting",
+    "url": "https://cdn.pixabay.com/photo/2016/08/16/09/53/crystal710-event-venue-1597531_1280.jpg"
+  },
+  {
+    "path": "zh/services/localization-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "website mobile app team office",
+    "url": "https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673_1280.jpg"
+  },
+  {
+    "path": "zh/services/multimedia-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "video editing desk subtitles",
+    "url": "https://cdn.pixabay.com/photo/2015/05/15/02/07/computer-767781_1280.jpg"
+  },
+  {
+    "path": "zh/services/translation-business.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business contract documents office",
+    "url": "https://cdn.pixabay.com/photo/2018/03/03/20/02/laptop-3196481_1280.jpg"
+  },
+  {
+    "path": "zh/services/translation-legal.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "law office contract review",
+    "url": "https://cdn.pixabay.com/photo/2021/10/04/12/15/business-6680123_1280.png"
+  },
+  {
+    "path": "zh/services/translation-finance.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "financial report documents desk",
+    "url": "https://cdn.pixabay.com/photo/2016/11/19/21/01/analysis-1841158_1280.jpg"
+  },
+  {
+    "path": "zh/services/translation-medical.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "medical documents desk",
+    "url": "https://cdn.pixabay.com/photo/2018/02/08/10/22/desk-3139127_1280.jpg"
+  },
+  {
+    "path": "zh/services/translation-technology.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "technical documents laptop office",
+    "url": "https://cdn.pixabay.com/photo/2018/02/08/10/22/desk-3139127_1280.jpg"
+  },
+  {
+    "path": "zh/services/translation-reports.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "report charts documents desk",
+    "url": "https://cdn.pixabay.com/photo/2016/11/19/21/01/analysis-1841158_1280.jpg"
+  },
+  {
+    "path": "zh/services/translation-certificate.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "certificate documents desk",
+    "url": "https://cdn.pixabay.com/photo/2014/08/26/19/17/energy-certificate-428300_1280.jpg"
+  },
+  {
+    "path": "zh/services/interpreting-simultaneous.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "simultaneous interpretation booth",
+    "url": "https://cdn.pixabay.com/photo/2023/01/19/10/24/phone-booth-7728783_1280.jpg"
+  },
+  {
+    "path": "zh/services/interpreting-consecutive.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business negotiation meeting",
+    "url": "https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_1280.jpg"
+  },
+  {
+    "path": "zh/services/interpreting-conference.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "conference stage audience",
+    "url": "https://cdn.pixabay.com/photo/2016/08/16/09/53/crystal710-event-venue-1597531_1280.jpg"
+  },
+  {
+    "path": "zh/services/interpreting-escort.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "factory tour business visitors",
+    "url": "https://cdn.pixabay.com/photo/2016/09/06/18/22/visitors-1649815_1280.jpg"
+  },
+  {
+    "path": "zh/services/interpreting-remote.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "online meeting headset laptop",
+    "url": "https://cdn.pixabay.com/photo/2023/05/08/13/24/laptop-7978588_1280.jpg"
+  },
+  {
+    "path": "zh/services/interpreting-executive.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "executive meeting business visit",
+    "url": "https://cdn.pixabay.com/photo/2026/04/05/07/20/geralt-business-10209984_1280.jpg"
+  },
+  {
+    "path": "zh/services/localization-website.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "website design laptop office",
+    "url": "https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673_1280.jpg"
+  },
+  {
+    "path": "zh/services/localization-app.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "app design mobile screens",
+    "url": "https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_1280.jpg"
+  },
+  {
+    "path": "zh/services/localization-marketing.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "marketing team campaign laptop",
+    "url": "https://cdn.pixabay.com/photo/2015/01/08/18/11/laptops-593296_1280.jpg"
+  },
+  {
+    "path": "zh/services/localization-multilingual.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "content strategy office",
+    "url": "https://cdn.pixabay.com/photo/2014/02/13/07/28/security-265130_1280.jpg"
+  },
+  {
+    "path": "zh/services/multimedia-subtitling.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "video editing subtitles screen",
+    "url": "https://cdn.pixabay.com/photo/2015/05/15/02/07/computer-767781_1280.jpg"
+  },
+  {
+    "path": "zh/services/multimedia-transcription.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "audio waveform laptop",
+    "url": "https://cdn.pixabay.com/photo/2016/04/19/05/07/turntable-1337986_1280.jpg"
+  },
+  {
+    "path": "zh/services/multimedia-voiceover.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "microphone script studio",
+    "url": "https://cdn.pixabay.com/photo/2015/02/06/22/08/microphone-626618_1280.jpg"
+  },
+  {
+    "path": "zh/services/multimedia-dtp.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "layout design desk",
+    "url": "https://cdn.pixabay.com/photo/2016/06/29/08/50/pencils-1486278_1280.jpg"
+  },
+  {
+    "path": "zh/services/multimedia-visual-adaptation.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "infographic design desk",
+    "url": "https://cdn.pixabay.com/photo/2017/08/10/05/18/home-2618511_1280.jpg"
+  },
+  {
+    "path": "en/home/hero-main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "international business meeting documents",
+    "url": "https://cdn.pixabay.com/photo/2023/02/09/18/42/mohamed_hassan-podcast-7779510_1280.png"
+  },
+  {
+    "path": "en/home/icon-translation.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "documents desk close up",
+    "url": "https://cdn.pixabay.com/photo/2017/03/02/05/19/invitation-2110452_1280.jpg"
+  },
+  {
+    "path": "en/home/icon-interpreting.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "headset conference close up",
+    "url": "https://cdn.pixabay.com/photo/2014/08/27/05/23/pilot-428894_1280.jpg"
+  },
+  {
+    "path": "en/home/icon-localization.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "laptop phone app screen",
+    "url": "https://cdn.pixabay.com/photo/2016/11/29/12/30/phone-1869510_1280.jpg"
+  },
+  {
+    "path": "en/about/team.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "professional team office meeting",
+    "url": "https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261_1280.jpg"
+  },
+  {
+    "path": "en/quote/form-upload.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "laptop paperwork office desk",
+    "url": "https://cdn.pixabay.com/photo/2018/03/03/20/02/laptop-3196481_1280.jpg"
+  },
+  {
+    "path": "en/case-studies/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "project team business meeting",
+    "url": "https://cdn.pixabay.com/photo/2017/05/04/16/37/meeting-2284501_1280.jpg"
+  },
+  {
+    "path": "en/industry-solutions/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business healthcare technology finance collage",
+    "url": "https://cdn.pixabay.com/photo/2019/04/04/08/01/icon-4102192_1280.png"
+  },
+  {
+    "path": "en/insights/channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "editorial planning desk",
+    "url": "https://cdn.pixabay.com/photo/2017/05/04/16/37/meeting-2284501_1280.jpg"
+  },
+  {
+    "path": "en/localization/hero.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "product team laptop mobile screens",
+    "url": "https://cdn.pixabay.com/photo/2016/03/27/07/12/apple-1282241_1280.jpg"
+  },
+  {
+    "path": "en/services/translation-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "documents reports contract office",
+    "url": "https://cdn.pixabay.com/photo/2020/11/03/15/32/man-5710164_1280.jpg"
+  },
+  {
+    "path": "en/services/interpreting-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "conference headset event",
+    "url": "https://cdn.pixabay.com/photo/2016/08/16/09/53/crystal710-event-venue-1597531_1280.jpg"
+  },
+  {
+    "path": "en/services/localization-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "website mobile product meeting",
+    "url": "https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673_1280.jpg"
+  },
+  {
+    "path": "en/services/academic-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "research paper discussion",
+    "url": "https://cdn.pixabay.com/photo/2014/09/26/16/38/books-462579_1280.jpg"
+  },
+  {
+    "path": "en/services/multimedia-channel.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "video editing audio workspace",
+    "url": "https://cdn.pixabay.com/photo/2024/09/21/14/03/ai-generated-9063939_1280.jpg"
+  },
+  {
+    "path": "en/industry-solutions/finance-business.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "finance team meeting reports",
+    "url": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png"
+  },
+  {
+    "path": "en/industry-solutions/government-public-sector.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "formal meeting conference table",
+    "url": "https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_1280.jpg"
+  },
+  {
+    "path": "en/industry-solutions/legal-policy.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "lawyer contract review",
+    "url": "https://cdn.pixabay.com/photo/2022/04/10/16/42/adart00090-lawyer-7123799_1280.jpg"
+  },
+  {
+    "path": "en/industry-solutions/life-sciences-medical.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "medical research team documents",
+    "url": "https://cdn.pixabay.com/photo/2017/10/04/09/56/chemist-2815640_1280.jpg"
+  },
+  {
+    "path": "en/industry-solutions/media-publishing.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "editorial layout desk",
+    "url": "https://cdn.pixabay.com/photo/2016/06/29/08/50/pencils-1486278_1280.jpg"
+  },
+  {
+    "path": "en/industry-solutions/technology-manufacturing.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "engineers reviewing product documents",
+    "url": "https://cdn.pixabay.com/photo/2016/11/18/21/37/laptop-1836990_1280.jpg"
+  },
+  {
+    "path": "en/services/translation-business.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business documents office",
+    "url": "https://cdn.pixabay.com/photo/2020/04/04/03/42/paperwork-5000691_1280.png"
+  },
+  {
+    "path": "en/services/translation-legal.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "legal contract desk",
+    "url": "https://cdn.pixabay.com/photo/2024/11/18/10/20/businessman-9205819_1280.png"
+  },
+  {
+    "path": "en/services/translation-finance.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "financial report desk",
+    "url": "https://cdn.pixabay.com/photo/2016/11/19/21/01/analysis-1841158_1280.jpg"
+  },
+  {
+    "path": "en/services/translation-medical.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "medical documents office",
+    "url": "https://cdn.pixabay.com/photo/2020/04/04/03/42/paperwork-5000691_1280.png"
+  },
+  {
+    "path": "en/services/translation-technology.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "technical documentation desk",
+    "url": "https://cdn.pixabay.com/photo/2018/02/08/10/22/desk-3139127_1280.jpg"
+  },
+  {
+    "path": "en/services/translation-reports.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "report charts office desk",
+    "url": "https://cdn.pixabay.com/photo/2016/11/19/21/01/analysis-1841158_1280.jpg"
+  },
+  {
+    "path": "en/services/translation-certificate.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "certificate papers desk",
+    "url": "https://cdn.pixabay.com/photo/2018/11/17/07/10/notebook-3820634_1280.jpg"
+  },
+  {
+    "path": "en/services/interpreting-simultaneous.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "simultaneous interpretation booth",
+    "url": "https://cdn.pixabay.com/photo/2023/01/19/10/24/phone-booth-7728783_1280.jpg"
+  },
+  {
+    "path": "en/services/interpreting-consecutive.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "small business meeting discussion",
+    "url": "https://cdn.pixabay.com/photo/2015/01/08/18/11/laptops-593296_1280.jpg"
+  },
+  {
+    "path": "en/services/interpreting-conference.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "conference stage audience",
+    "url": "https://cdn.pixabay.com/photo/2016/08/16/09/53/crystal710-event-venue-1597531_1280.jpg"
+  },
+  {
+    "path": "en/services/interpreting-escort.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business visitors factory tour",
+    "url": "https://cdn.pixabay.com/photo/2016/09/06/18/22/visitors-1649815_1280.jpg"
+  },
+  {
+    "path": "en/services/interpreting-remote.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "online meeting headset laptop",
+    "url": "https://cdn.pixabay.com/photo/2023/05/08/13/24/laptop-7978588_1280.jpg"
+  },
+  {
+    "path": "en/services/interpreting-executive.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "executive boardroom meeting",
+    "url": "https://cdn.pixabay.com/photo/2026/04/05/07/20/geralt-business-10209984_1280.jpg"
+  },
+  {
+    "path": "en/services/localization-website.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "website design office laptop",
+    "url": "https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673_1280.jpg"
+  },
+  {
+    "path": "en/services/localization-app.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "mobile app screens desk",
+    "url": "https://cdn.pixabay.com/photo/2020/09/02/03/26/iphone-5537230_1280.jpg"
+  },
+  {
+    "path": "en/services/localization-marketing.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "marketing team campaign office",
+    "url": "https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg"
+  },
+  {
+    "path": "en/services/localization-multilingual.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "content strategy office",
+    "url": "https://cdn.pixabay.com/photo/2014/02/13/07/28/security-265130_1280.jpg"
+  },
+  {
+    "path": "light/fr/main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "european business meeting office",
+    "url": "https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg"
+  },
+  {
+    "path": "light/es/main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business office collaboration",
+    "url": "https://cdn.pixabay.com/photo/2017/08/23/16/05/iocenters-2673328_1280.jpg"
+  },
+  {
+    "path": "light/de/main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "structured business meeting office",
+    "url": "https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg"
+  },
+  {
+    "path": "light/ar/main.jpg",
+    "status": "downloaded",
+    "provider": "pixabay",
+    "query": "business consulting meeting office",
+    "url": "https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg"
+  }
+]
